@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+    --color-cta: #A259FF;
+    --color-white: #fff;
+    --color-background: #2B2B2B;
+    --color-secondaryBackground: #3B3B3B;
+    --color-caption: #858584;
+    --color-label: #858584;
+
+
+}
+
+body {
+    font-family: 'Work Sans', 'sans-serif';
+    background-color: #2B2B2B;
+    color: #fff;
+}
