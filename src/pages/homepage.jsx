@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../components/navbar'
 import HeroSection from '../components/heroSection'
 import TrendingCollections from '../components/trendingCollection'
+import CreatorsSection from '../components/creatorSection'
+import Categories from '../components/categories'
 
 function HomePage() {
     return (
@@ -9,6 +11,8 @@ function HomePage() {
             <Navbar />
             <HeroSection />
             <TrendingCollections />
+            <CreatorsSection />
+            <Categories />
         </div>
     )
 }

@@ -8,7 +8,7 @@ function TrendingCollections() {
     return (
         <div className='container mx-auto w-full h-auto py-7 px-12 lg:py-14 lg:px-24'>
             <hgroup className='mb-6'>
-                <h1 className='text-4xl mb-2'>Trending Collections</h1>
+                <h1 className='text-2xl sm:text-3xl md:text-4xl mb-2'>Trending Collections</h1>
                 <div>
                     <p>Checkout our weekly updated trending Collections</p>
                 </div>
