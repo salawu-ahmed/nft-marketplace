@@ -165,7 +165,7 @@ function HomePage() {
             </section>
 
             <section className='container mx-auto w-full h-auto py-7 px-12 lg:py-14 lg:px-24'>
-                <div className="flex flex-col md:flex-row bg-secondaryBackground bg-transparent p-8 md:p-16 gap-10 md:gap-20 rounded-lg">
+                <div className="flex flex-col md:flex-row md:bg-secondaryBackground bg-transparent p-8 md:p-16 gap-10 md:gap-20 rounded-lg">
                     <div className='w-full md:w-1/2 h-72 rounded-lg overflow-hidden'>
                         <img src={cta_photo} alt="" className='w-full h-full object-cover' />
                     </div>
