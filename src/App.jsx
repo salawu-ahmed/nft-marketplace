@@ -4,6 +4,8 @@ import RegisterPage from "./pages/registerpage"
 import LoginPage from "./pages/loginPage"
 import WalletPage from "./pages/walletpage"
 import ArtistPage from "./pages/artistpage"
+import AboutNFT from "./pages/about-nft"
+import Marketplace from "./pages/marketplace"
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <Route path="/login" element={<LoginPage/>} />
       <Route path="/connect-wallet" element={<WalletPage/>} />
       <Route path='/artist-page' element={<ArtistPage/>} />
+      <Route path="/about-nft" element={<AboutNFT />} />
+      <Route path="/marketplace" element={<Marketplace/>} />
     </Routes>
     </>
   )
