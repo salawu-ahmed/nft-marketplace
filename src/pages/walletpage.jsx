@@ -1,0 +1,38 @@
+import React from 'react'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
+import connectWallet from '../assets/connect-wallet.png'
+
+function WalletPage() {
+    return (
+        <div>
+            <Navbar />
+            {/* <section className='container mx-auto w-full h-auto py-7 px-12 lg:py-14 lg:px-24'> */}
+                <div className='flex flex-col md:flex-row items-center gap-16'>
+                    <div className='flex-1'>
+                        <img src={connectWallet} alt="" />
+                    </div>
+                    <div className='flex-1'>
+                        <h1 className='text-2xl md:text-5xl'>Create Wallet</h1>
+                        <p>Choose a wallet you want to connect. There are several wallet providers.</p>
+                        <div>
+                            <div>
+                                <input type="text" placeholder='Username' />
+                            </div>
+                            <div>
+                                <input type="email" placeholder='Email Address' />
+                            </div>
+                            <div>
+                                <input type="password" placeholder='Password' />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            {/* </section> */}
+            <Footer />
+        </div>
+    )
+}
+
+export default WalletPage
