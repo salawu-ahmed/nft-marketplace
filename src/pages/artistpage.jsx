@@ -25,10 +25,10 @@ function ArtistPage() {
                     <h2>Animakid</h2>
                     <div className='flex flex-col md:flex-row gap-4'>
                         <div>
-                            <Button type='secondary'>Copy ID</Button>
+                            <Button type='outline' buttonText='Copy ID'/>
                         </div>
                         <div>
-                            <Button type='primary'>Follow</Button>
+                            <Button type='filled' buttonText='Follow'/>
                         </div>
                     </div>
                 </div>
