@@ -5,13 +5,13 @@ import { Link } from 'react-router'
 
 function Footer() {
     return (
-        <section className='container mx-auto w-full h-auto py-7 px-12 lg:py-14 lg:px-24'>
-            <div className='flex flex-col md:flex-row gap-12'>
+        <section className='container bg-secondaryBackground mx-auto w-full h-auto py-7 px-12 lg:py-14 lg:px-24'>
+            <div className='flex flex-col md:flex-row md:justify-between gap-12'>
                 <div>
-                    <h1>NFT Marketplace</h1>
-                    <p>NFT Marketplace created with Anima for Figma</p>
-                    <p>Join our community</p>
-                    <div className='flex gap-4 items-center'>
+                    <p className='text-h5 font-spaceMono font-semibold'>NFT Marketplace</p>
+                    <p className='font-workSans text-body text-footerText'>NFT Marketplace created with Anima for Figma</p>
+                    <p className='font-workSans text-body text-footerText'>Join our community</p>
+                    <div className='flex gap-4 items-center text-footerText'>
                         <RiDiscordLine size={30} />
                         <PiYoutubeLogoLight size={30} />
                         <RiTwitterXLine size={30} />
@@ -20,23 +20,23 @@ function Footer() {
                 </div>
 
                 <div>
-                    <h2>Explore</h2>
+                    <p className='text-h5 font-spaceMono font-medium'>Explore</p>
                     <ul>
                         <li>
-                            <Link to='/'>Marketplace</Link>
+                            <Link to='/marketplace' className='font-workSans text-footerText text-body'>Marketplace</Link>
                         </li>
                         <li>
-                            <Link to='/'>Rankings</Link>
+                            <Link to='/' className='font-workSans text-footerText text-body'>Rankings</Link>
                         </li>
                         <li>
-                            <Link to='/'>Connect a wallet</Link>
+                            <Link to='/connect-wallet' className='font-workSans text-footerText text-body'>Connect a wallet</Link>
                         </li>
                     </ul>
                 </div>
 
                 <div>
-                    <h2>Join our weekly Digest</h2>
-                    <p>Get excluse promotion & updates straight to your inbox</p>
+                    <p className='text-h5 font-spaceMono font-medium'>Join our weekly Digest</p>
+                    <p className='w-2/3 text-body font-workSans text-footerText'>Get excluse promotion & updates straight to your inbox</p>
                     <div>
                         <input type='email' placeholder='Enter your email here' />
                         <button>Subscribe</button>
