@@ -5,7 +5,7 @@ import avatar from "../assets/artist_avatar.png"
 
 function NFTcard() {
     return (
-        <div className="rounded-lg overflow-hidden bg-secondaryBackground">
+        <div className="rounded-lg overflow-hidden bg-background">
             <img src={latest_nft} alt="" />
             <div className='p-4'>
                 <p>Distant Galaxy</p>
