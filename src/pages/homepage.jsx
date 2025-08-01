@@ -18,9 +18,7 @@ import Section from '../components/section'
 
 function HomePage() {
     return (
-        <div>
-            <Navbar />
-
+        <>
             {/* HERO SECTION */}
             <section className='container mx-auto h-auto flex flex-col gap-y-6 md:flex-row md:justify-between md:gap-x-12 md:gap-y-0 py-7 px-12 lg:py-14  ' >
                 <div className='w-full md:w-1/2 mb-3 md:mb-0 flex-1 '>
@@ -185,9 +183,7 @@ function HomePage() {
                     </div>
                 </div>
             </Section>
-
-            <Footer />
-        </div>
+        </>
     )
 }
 
